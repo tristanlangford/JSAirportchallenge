@@ -9,4 +9,7 @@ describe("airport", function() {
     expect(airport.land("plane")).toEqual("landed");
   });
 
+  it("when .takeoff it removes plane to array", function() {
+    expect(airport.takeoff("plane")).toEqual("taken off");
+  });
 });

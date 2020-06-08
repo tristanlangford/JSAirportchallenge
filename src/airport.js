@@ -1,4 +1,5 @@
 class Airport {
+plane = 'plane'; 
 
   land(aPlane) {
     var plane = aPlane;
@@ -10,4 +11,13 @@ class Airport {
     }
   };
 
+  takeoff(plane) {
+    plane = null
+    if (plane === null) {
+    return 'taken off';
+  }
+
 };
+}
+
+
